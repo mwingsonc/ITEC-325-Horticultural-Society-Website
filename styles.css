@@ -16,6 +16,34 @@ h3{
 }
 
 /* ------------
+  NAVBAR STYLES
+-------------- */
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5c5c93;
+}
+
+ul li {
+  float: left;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+/* ------------
    GALLERY STYLES
 -------------- */
 
@@ -96,6 +124,7 @@ img {
     line-height: 1.6;
     font-size: 1.1em;
 }
+
 
 
 
